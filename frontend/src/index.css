@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes:
+        light,
+        autumn,
+        cmyk,
+        forest,
+        lofi,
+        NightFall-Pines;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: false;
+    --color-base-100: hsl(48, 33%, 97%);
+    --color-base-200: hsl(48, 33%, 80%);
+    --color-base-300: hsl(48, 33%, 75%);
+    --color-base-content: hsl(244, 41%, 15%);
+    --color-base-content-strong: hsl(0, 0%, 0%);
+    --color-primary: hsl(209, 60%, 52%);
+    --color-primary-content: hsl(48, 33%, 97%);
+    --color-secondary: hsl(358, 60%, 53%);
+    --color-secondary-content: hsl(48, 33%, 97%);
+    --color-accent: hsl(41, 72%, 42%);
+    --color-accent-content: hsl(48, 33%, 97%);
+    --color-neutral: hsl(253, 12%, 63%);
+    --color-neutral-content: hsl(48, 33%, 97%);
+    --color-info: oklch(50% 0.160 262.881);
+    --color-info-content: oklch(88% 0.010 254.604);
+    --color-success: oklch(50% 0.080 184.704);
+    --color-success-content: oklch(88% 0.010 180.72);
+    --color-warning: oklch(55% 0.120 58.318);
+    --color-warning-content: oklch(88% 0.012 95.277);
+    --color-error: oklch(45% 0.170 17.585);
+    --color-error-content: oklch(88% 0.010 12.422);
+}
+
+@plugin "daisyui/theme" {
+    name: "NightFall-Pines";
+    default: true;
+    prefersdark: false;
+    color-scheme: "dark";
+    --color-base-100: hsl(213, 100%, 12%);
+    --color-base-200: hsl(213, 100%, 10%);
+    --color-base-300: hsl(213, 100%, 8%);
+    --color-base-content: hsl(0, 0%, 75%);
+    --color-base-content-strong: hsl(0, 0%, 95%);
+    --color-primary:hsl(47, 90%, 66%);
+    --color-primary-content: hsl(213, 100%, 12%);
+    --color-secondary: hsl(358, 60%, 33%);
+    --color-secondary-content: hsl(48, 33%, 97%);
+    --color-accent: hsl(209, 100%, 70%);
+    --color-accent-content: oklch(85% 0.008 17.38);
+    --color-neutral: oklch(20% 0.003 56.043);
+    --color-neutral-content: oklch(85% 0.003 106.423);
+    --color-info: oklch(50% 0.160 262.881);
+    --color-info-content: oklch(88% 0.010 254.604);
+    --color-success: oklch(50% 0.080 184.704);
+    --color-success-content: oklch(88% 0.010 180.72);
+    --color-warning: oklch(55% 0.120 58.318);
+    --color-warning-content: oklch(88% 0.012 95.277);
+    --color-error: oklch(45% 0.170 17.585);
+    --color-error-content: oklch(88% 0.010 12.422);
+    --radius-selector: 1rem;
+    --radius-field: 0.25rem;
+    --radius-box: 2rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1.5px;
+    --depth: 1;
+    --noise: 0;
+}
+
+
+/* Animações */
+@layer utilities {
+    @keyframes blink {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .animate-blink {
+        animation: blink 0.8s step-end infinite;
+    }
+
+    @keyframes loading {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(250%);
+        }
+    }
+
+    .animate-loading-bar {
+        animation: loading 0.8s ease infinite;
+    }
+}
