@@ -56,7 +56,7 @@ export function Projects() {
 
     return (
         <main>
-            <div className="min-h-screen flex items-center justify-center mb-20 mt-5">
+            <div className="min-h-screen flex items-center justify-center mb-20 mt-22">
                 <div className="mx-w-5xl mx-auto px-4">
                     <SectionTitle title="Projects" />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

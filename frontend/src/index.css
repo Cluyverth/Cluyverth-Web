@@ -14,8 +14,8 @@
     name: "light";
     default: false;
     --color-base-100: hsl(48, 33%, 97%);
-    --color-base-200: hsl(48, 33%, 80%);
-    --color-base-300: hsl(48, 33%, 75%);
+    --color-base-200: hsl(48, 33%, 90%);
+    --color-base-300: hsl(48, 33%, 85%);
     --color-base-content: hsl(244, 41%, 15%);
     --color-base-content-strong: hsl(0, 0%, 0%);
     --color-primary: hsl(209, 60%, 52%);
@@ -37,7 +37,7 @@
 }
 
 @plugin "daisyui/theme" {
-    name: "NightFall-Pines";
+    name: "dark";
     default: true;
     prefersdark: false;
     color-scheme: "dark";
@@ -47,7 +47,7 @@
     --color-base-content: hsl(0, 0%, 75%);
     --color-base-content-strong: hsl(0, 0%, 95%);
     --color-primary:hsl(47, 90%, 66%);
-    --color-primary-content: hsl(213, 100%, 12%);
+    --color-primary-content: hsl(0, 0%, 0%);
     --color-secondary: hsl(358, 60%, 33%);
     --color-secondary-content: hsl(48, 33%, 97%);
     --color-accent: hsl(209, 100%, 70%);

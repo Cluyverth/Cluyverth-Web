@@ -3,16 +3,11 @@ import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { SocialSidebar } from "../components/layout/SocialSidebar";
 
-interface MainLayoutProps {
-    isLoaded: boolean;
-}
-
-
-export function MainLayout({ isLoaded }: MainLayoutProps) {
+export function MainLayout() {
 
     return (
         <>
-            <Header isLoaded={isLoaded} />
+            <Header />
             <Outlet />
             <Footer />
             <SocialSidebar />

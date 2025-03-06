@@ -21,7 +21,7 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<MainLayout isLoaded={isLoaded} />}>
+        <Route element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />

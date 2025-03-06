@@ -57,7 +57,7 @@ export function About() {
 
     return (
         <main>
-            <div className="min-h-screen flex items-center justify-center mb-20 mt-5">
+            <div className="min-h-screen flex items-center justify-center mb-20 mt-22">
                 <div className="max-w-3xl mx-auto px-4">
                     <SectionTitle title="About Me" />
                     <AboutContent />

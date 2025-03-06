@@ -22,12 +22,12 @@ export function Home() {
                     <BlueBoldText text="@PROJETO-C" href="https://github.com/Cluyverth/PROJETO-C" />.{' '}
                 </HeroDescription>
 
-                <div className="flex flex-col md:flex-row justify-center gap-4">
+                <div className="flex flex-col flex-row justify-center gap-4 px-10">
                     <ButtonLink
                         to="/projects"
                         icon={FaRegFolder}
                         variant="primary"
-                        size="md">
+                        size="lg">
                         View Projects
                     </ButtonLink>
 
@@ -35,7 +35,7 @@ export function Home() {
                         to="/about"
                         icon={FaRegUser}
                         variant="secondary"
-                        size="md"
+                        size="lg"
                     >
                         About Me
                     </ButtonLink>
