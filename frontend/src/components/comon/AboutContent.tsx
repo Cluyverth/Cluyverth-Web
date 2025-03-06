@@ -29,12 +29,12 @@ export function AboutContent() {
 
                 <p className="text-[var(--color-text-secondary)] mb-6">
                     Creator of the VS Code theme <BoldText href="https://github.com/Cluyverth/NightFall-Pines" text="@NightFall-Pines" />,
-                    along with the projects <BoldText href="https://www.youtube.com/@Byakkott" text="@PROJETOA" />, <BoldText href="https://www.youtube.com/@Byakkott" text="@PROJETOB" />, and <BoldText href="https://www.youtube.com/@Byakkott" text="@PROJETOC" />.
+                    along with the projects <BoldText href="#" text="@KumoHabit" />, <BoldText href="#" text="@GakuStay" />, <BoldText href="#" text="@BookBloom" />, <BoldText href="#" text="@WordVault" />, and <BoldText href="#" text="@MacroMagic" />.
                 </p>
 
                 <p className="text-[var(--color-text-secondary)] mb-6">
                     Outside of development, I share content on
-                    <BoldText href="https://www.youtube.com/@Byakkott" text=" @Byakkott" />,
+                    <BoldText href="https://www.youtube.com/@Cluyverth" text=" @Cluyverth" />,
                     my YouTube channel, dive into outdoor activities like
                     <BoldText text=" calisthenics" /> and
                     <BoldText text=" extreme sports" />, or immerse myself in
