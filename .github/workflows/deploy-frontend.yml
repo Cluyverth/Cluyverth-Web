@@ -21,7 +21,7 @@ jobs:
       - name: Build Docker Image for Frontend
         working-directory: ./frontend
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/cluyverth-web:latest .
+          docker build -t ghcr.io/${{ github.actor }}/cluyverth-web:latest .
 
       # Step 3: Login to GitHub Container Registry (GHCR)
       - name: Login to GitHub Container Registry
