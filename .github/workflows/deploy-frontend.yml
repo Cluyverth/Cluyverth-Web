@@ -34,7 +34,7 @@ jobs:
       # Step 4: Push the Docker image to GHCR
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/${{ github.repository }}/cluyverth-web:latest
+          docker push ghcr.io/${{ github.actor }}/cluyverth-web:latest
 
       # Step 5: Deploy to VPS via SSH using Podman Compose
       - name: Deploy to VPS via SSH
