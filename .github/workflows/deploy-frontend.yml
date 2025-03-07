@@ -21,20 +21,20 @@ jobs:
       - name: Build Docker Image for Frontend
         working-directory: ./frontend
         run: |
-          docker build -t ghcr.io/cluyverth/cluyverth-web:latest .
+          docker build -t ghcr.io/${{ github.actor }}/cluyverth-web:latest .
 
       # Step 3: Login to GitHub Container Registry (GHCR)
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: cluyverth
+          username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 4: Push the Docker image to GHCR
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/cluyverth/cluyverth-web:latest
+          docker push ghcr.io/${{ github.actor }}/cluyverth-web:latest
 
       # Step 5: Deploy to VPS via SSH using Podman Compose
       - name: Deploy to VPS via SSH
