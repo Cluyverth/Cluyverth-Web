@@ -29,7 +29,7 @@ export function AboutContent() {
 
                 <p className="text-[var(--color-text-secondary)] mb-6">
                     Creator of the VS Code theme <BoldText href="https://github.com/Cluyverth/NightFall-Pines" text="@NightFall-Pines" />,
-                    along with the projects <BoldText href="#" text="@KumoHabit" />, <BoldText href="#" text="@GakuStay" />, <BoldText href="#" text="@BookBloom" />, <BoldText href="#" text="@WordVault" />, and <BoldText href="#" text="@MacroMagic" />.
+                    along with the projects <BoldText href="https://github.com/Cluyverth/kumohabit" text="@KumoHabit" />, <BoldText href="https://github.com/Cluyverth/gakustay" text="@GakuStay" />, <BoldText href="https://github.com/Cluyverth/bookbloom" text="@BookBloom" />, <BoldText href="https://github.com/Cluyverth/wordvault" text="@WordVault" />, and <BoldText href="https://github.com/Cluyverth/macromagic" text="@MacroMagic" />.
                 </p>
 
                 <p className="text-[var(--color-text-secondary)] mb-6">
