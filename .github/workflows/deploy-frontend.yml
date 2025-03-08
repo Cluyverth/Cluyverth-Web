@@ -44,15 +44,9 @@ jobs:
         run: |
           docker push ghcr.io/${{ env.REPO }}/cluyverth-web:latest
 
-      # Step 6: Deploy to VPS via SSH using Podman Compose
-      - name: Deploy to VPS via SSH
-        uses: appleboy/ssh-action@v1.2.1
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          port: ${{ secrets.VPS_SSH_PORT }}
-          script: |
-            cd ~/Projects
-            podman-compose pull
-            podman-compose up -d
+      # /*
+      #  *  REMOVED INSECURE SSH DEPLOYMENT IMPLEMENTATION
+      #  *  REASON: REQUIREMENT TO OPEN VPS SSH PORT TO ALL IPS (VULNERABLE)
+      #  *  FUTURE SOLUTION: IMPLEMENT DEPLOYMENT WITH GITHUB SELF-HOSTED ACTIONS (MORE SECURE)
+      #  */
+      # # Step 6: Deploy to VPS via SSH using Podman Compose
