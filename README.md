@@ -1,6 +1,6 @@
 # Cluyverth Web Portfolio
 
-[![GitHub Actions CI/CD](https://img.shields.io/github/actions/workflow/status/cluyverth/cluyverth-Web/main.yml?label=CI%2FCD)](https://github.com/cluyverth/cluyverth-Web/actions)
+[![GitHub Actions CI/CD](https://img.shields.io/github/actions/workflow/status/cluyverth/cluyverth-Web/main.yml?label=CI%2FCD)](https://github.com/cluyverth/cluyverth-web/actions)
 [![Node.js](https://img.shields.io/badge/Node.js-23.9.0-339933?logo=node.js)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-19.0.0-%2361DAFB?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-%233178C6?logo=typescript)](https://www.typescriptlang.org/)
