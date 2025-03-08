@@ -17,7 +17,7 @@ export function Projects() {
             techs: ["Next.js", "TypeScript", "TailwindCSS", "Python", "Django", "PostgreSQL"],
             image: "/Projects/UnderConstruction.png",
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Cluyverth/kumohabit"
         },
         {
             title: "GakuStay",
@@ -25,7 +25,7 @@ export function Projects() {
             techs: ["React", "Next.js", "TypeScript", "TailwindCSS", "C#", ".NET Core", "SQL Server"],
             image: "/Projects/UnderConstruction.png",
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Cluyverth/gakustay"
         },
         {
             title: "BookBloom",
@@ -33,24 +33,24 @@ export function Projects() {
             techs: ["Next.js", "TypeScript", "TailwindCSS", "NestJS", "MongoDB"],
             image: "/Projects/UnderConstruction.png",
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Cluyverth/bookbloom"
         },
-        // {
-        //     title: "WordVault",
-        //     description: "A powerful application utilizing spaced repetition techniques to enable efficient and long-lasting memorization of vocabulary for language learners.",
-        //     techs: ["Next.js", "TypeScript", "TailwindCSS", "Python", "Django", "PostgreSQL"],
-        //     image: "/Projects/UnderConstruction.png",
-        //     liveUrl: "#",
-        //     githubUrl: "#"
-        // },
-        // {
-        //     title: "MacroMagic",
-        //     description: " An intuitive application developed to create personalized diet plans based on individual goals and specific macronutrient requirements.",
-        //     techs: ["React", "Next.js", "TypeScript", "TailwindCSS", "Python", "Django", "PostgreSQL"],
-        //     image: "/Projects/UnderConstruction.png",
-        //     liveUrl: "#",
-        //     githubUrl: "#"
-        // },
+         {
+            title: "WordVault",
+             description: "A powerful application utilizing spaced repetition techniques to enable efficient and long-lasting memorization of vocabulary for language learners.",
+             techs: ["Next.js", "TypeScript", "TailwindCSS", "Python", "Django", "PostgreSQL"],
+             image: "/Projects/UnderConstruction.png",
+             liveUrl: "#",
+             githubUrl: "https://github.com/Cluyverth/wordvault"
+         },
+          {
+             title: "MacroMagic",
+             description: " An intuitive application developed to create personalized diet plans based on individual goals and specific macronutrient requirements.",
+             techs: ["React", "Next.js", "TypeScript", "TailwindCSS", "Python", "Django", "PostgreSQL"],
+             image: "/Projects/UnderConstruction.png",
+             liveUrl: "#",
+             githubUrl: "https://github.com/Cluyverth/macromagic"
+         },
         // {
         //     title: "Flash Polls",
         //     description: "A fast and interactive polling tool designed for streamers and live chats. Instantly create and share polls without login for your audience.",
@@ -65,7 +65,7 @@ export function Projects() {
             techs: ["Next.js", "TypeScript", "TailwindCSS", "NestJS", "PostgreSQL"],
             image: "/Projects/UnderConstruction.png",
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Cluyverth/stupidspin"
         },
         // {
         //     title: "FinScan",
